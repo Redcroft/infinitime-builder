@@ -26,8 +26,8 @@ in stdenv.mkDerivation rec {
   src = fetchFromGitHub {
     owner = "InfiniTimeOrg";
     repo = "InfiniTime";
-    rev = "1.14.0";
-    hash = "sha256-NWqlhQonBhWlSyI4IHLXrc8+FhUKzSo4EvLCLRFgFf0=";
+    rev = "0dcfb2edb7ac071aa0a22c01609122d577d4c05d";
+    hash = "sha256-HueysifDZlr2SJhi6UcQekp9r7bDlzIXhK+soMSNwN4=";
     fetchSubmodules = true;
   };
 
